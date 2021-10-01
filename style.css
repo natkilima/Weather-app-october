@@ -1,0 +1,52 @@
+#paris {
+  color: blue;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#london {
+  color: blueviolet;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#johannesburg {
+  color: violet;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.currentCity {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#currentEmoji {
+  font-size: 30px;
+  color: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#day {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  color: darkslateblue;
+  font-weight: 200;
+}
+
+h2 {
+  color: darkmagenta;
+  font-weight: 100;
+}
+
+body {
+  background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  color: darkblue;
+}
+
+#temperature {
+  color: darkblue;
+}
