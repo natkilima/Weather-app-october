@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+  </br>
+</br>
+    <div class="container"> 
+        <div class="row">
+          <div class="col-12">
+              <div class="row">
+                <div class="col" id="paris"> Paris </div>
+                <div class="col" id="london" > London </div>
+                <div class="col" id="johannesburg"> Johannesburg </div>
+              </div>
+          </div>
+      </div>
+         
+  </br>
+  <div class="row">
+    <form id="search-form"> 
+        <input 
+        type="text"
+        placeholder="Type a city..."
+        autocomplete="off"
+        id="city-input"
+        autofocus="on"
+        id="search-text-input"
+        /> 
+
+        <input type="submit" value="Search" /> 
+    </form>
+
+  </div>
+</br>
+    <div class="row">
+        <div class="col">
+          <h1 id="city">  
+        </h1>
+
+        <h2> Current time </h2>
+      </br>
+    <div class="container">
+      <div class="row">
+        <div class="col-4"><img src="https://reneedezvous.files.wordpress.com/2012/07/london-rain.jpg" width="150" height="110"/></div>
+        <div class="col-4" id="currentEmoji">
+            ☁ <span class="temperature" id="temperature"></span>
+              <span class="units">
+              <a href="#" id="celsius">°C</a>
+            </span>
+        </div>
+        <div class="col-4">
+            <ul>
+                <li> Weather conditions:  <span id="description"></span> </li>
+                <li> Humidity: <span id="humidity"></span> % </li> 
+                <li> Wind: <span id="wind"></span> km/h </li>
+              </ul>
+        </div>
+      </div>
+    </br>
+  </br>
+      <div class="row">
+        <div class="col">
+            <div class="row" id="day"> Monday</div>
+            <div class="row"> ☁️ </div>
+            <div class="row"> 22°C</div>
+        </div>
+        <div class="col">
+            <div class="row" id="day"> Tuesday</div>
+            <div class="row"> 🌧️ </div>
+            <div class="row"> 18°C </div>
+        </div>
+        <div class="col">
+            <div class="row" id="day"> Wednesday </div>
+            <div class="row"> 🌧️ </div>
+            <div class="row"> 19°C </div>
+        </div>
+        <div class="col">
+            <div class="row" id="day"> Thursday</div>
+            <div class="row"> ☁️ </div>
+            <div class="row"> 20°C</div>
+        </div>
+        <div class="col">
+            <div class="row" id="day"> Friday </div>
+            <div class="row"> 🌤️ </div>
+            <div class="row"> 22°C </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
