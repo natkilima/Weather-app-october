@@ -1,52 +1,97 @@
-#paris {
-  color: blue;
-  font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#london {
-  color: blueviolet;
-  font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#johannesburg {
-  color: violet;
-  font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.currentCity {
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#currentEmoji {
-  font-size: 30px;
-  color: darkcyan;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#day {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-h1 {
-  color: darkslateblue;
-  font-weight: 150;
-}
-
-h2 {
-  color: darkmagenta;
-  font-weight: 80;
-}
-
 body {
-  background-color: rgb(142, 167, 235);
+  background-color: black;
+  opacity: 1;
 }
-
+h1 {
+  text-align: center;
+  line-height: 48px;
+  font-size: 40px;
+}
+h2 {
+  text-align: center;
+  line-height: 48px;
+  font-size: 50px;
+  color: rgb(216, 28, 91);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 ul {
   list-style-type: none;
-  color: darkblue;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 50px;
+  color: white;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid silver;
+  padding: 5px;
+  width: 600px;
 }
 
-#temperature {
-  color: darkblue;
+.history {
+  color: royalblue;
+}
+
+.mustSee {
+  color: blueviolet;
+}
+
+.venues {
+  color: pink;
+}
+
+.trailers {
+  color: rgb(216, 28, 91);
+}
+
+.hook {
+  color: silver;
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.personalised {
+  color: blueviolet;
+}
+
+.author {
+  text-align: right;
+  color: pink;
+}
+
+.director {
+  text-align: center;
+}
+button {
+  border: 1px solid rgb(216, 28, 91);
+  border-radius: 30px;
+  margin: 20px auto;
+  display: block;
+  color: black;
+  background: rgb(216, 28, 91);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 15px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: pink;
+  color: rgb(216, 28, 91);
+  cursor: pointer;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: silver;
+  font-size: 25;
+  text-align: justify;
 }

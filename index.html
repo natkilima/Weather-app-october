@@ -1,104 +1,102 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nath Weather App October</title>
+    <title>Nathalie Rognon - Film Site</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <link
+        <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   
+
   </head>
-  <body>
-  </br>
-</br>
-    <div class="container"> 
-        <div class="row">
-          <div class="col-12">
-              <div class="row">
-                <div class="col" id="paris"> Paris </div>
-                <div class="col" id="london" > London </div>
-                <div class="col" id="johannesburg"> Johannesburg </div>
-              </div>
-          </div>
-      </div>
-         
-  </br>
-  <div class="row">
-    <form id="search-form"> 
-        <input 
-        type="text"
-        placeholder="Type a city..."
-        autocomplete="off"
-        id="city-input"
-        autofocus="on"
-        id="search-text-input"
-        /> 
+  <body >
+  <h1>📽️</h1>
+    <h2>A passion for films</h2>
+    <img
+      src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-042517-oldhollywood-1493167401.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*"
+      class="center"
+    />
+    <ul>
+      <li>
+        <a
+          href="https://www.scienceandmediamuseum.org.uk/objects-and-stories/very-short-history-of-cinema"
+          target="_blank"
+          class="history"
+          style="text-decoration: none"
+        >
+          A brief history of the medium
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www2.bfi.org.uk/greatest-films-all-time"
+          target="_blank"
+          class="mustSee"
+          style="text-decoration: none"
+        >
+          Must see films
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.timeout.com/london/film/the-25-best-cinemas-in-london"
+          target="_blank"
+          class="venues"
+          style="text-decoration: none"
+        >
+          Best cinemas in London, United Kingdom
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.imdb.com/trailers/"
+          target="_blank"
+          class="trailers"
+          style="text-decoration: none"
+        >
+          Discover the trailers of some upcoming films
+        </a>
+      </li>
+    </ul>
 
-        <input type="submit" value="Search" /> 
-    </form>
-
-  </div>
-</br>
-    <div class="row">
-        <div class="col">
-          <h1 id="city">  
-        </h1>
-
-        <h2> Current time </h2>
-      </br>
-    <div class="container">
-      <div class="row">
-        <div class="col-4"><img src="https://reneedezvous.files.wordpress.com/2012/07/london-rain.jpg" width="150" height="110"/></div>
-        <div class="col-4" id="currentEmoji">
-            ☁ <span class="temperature" id="temperature"></span>
-              <span class="units">
-              <a href="#" id="celsius">°C</a>
-            </span>
-        </div>
-        <div class="col-4">
-            <ul>
-                <li> Weather conditions:  <span id="description"></span> </li>
-                <li> Humidity: <span id="humidity"></span> % </li> 
-                <li> Wind: <span id="wind"></span> km/h </li>
-              </ul>
-        </div>
+    <p> <br /> <br /> <i>
+      « Cinema is important because it’s the only art form that allows you to
+      truly experience life through/in another person’s eyes/head. We can create
+      reality’s that are otherwise inaccessible or impossible to grasp alone in
+      our own heads. Its many genres and styles provide an endless array of
+      varying subcultures to society, and an even greater multitude of avenues
+      to deliver, nuanced, thoughtful, and emotional messages regarding the
+      human experience.
+      <br />
+      <br />
+      On top of all that, its entertainment is (for the most part) accessible to
+      the masses whereas paint, dance, and sculpture take a minimal knowledge of
+      their creative process to actually enjoy on a level greater than surface.
+      Film (along with certain forms of TV) is the best medium for relaying the
+      human experience on a broad, and entertaining scale.»</i>
+      <br />
+      <br />
+       Jake Bottiglieri, Director.
+      <br />
+      <br />
+      <div class="hook">
+      <strong> ⭐
+        Do you want to find out what to watch next?<br />Click 👇 for <span class="personalised">
+        personalised recommendations. </span> ⭐</strong
+      >
       </div>
-    </br>
-  </br>
-      <div class="row">
-        <div class="col">
-            <div class="row" id="day"> Monday</div>
-            <div class="row"> ☁️ </div>
-            <div class="row"> 22°C</div>
-        </div>
-        <div class="col">
-            <div class="row" id="day"> Tuesday</div>
-            <div class="row"> 🌧️ </div>
-            <div class="row"> 18°C </div>
-        </div>
-        <div class="col">
-            <div class="row" id="day"> Wednesday </div>
-            <div class="row"> 🌧️ </div>
-            <div class="row"> 19°C </div>
-        </div>
-        <div class="col">
-            <div class="row" id="day"> Thursday</div>
-            <div class="row"> ☁️ </div>
-            <div class="row"> 20°C</div>
-        </div>
-        <div class="col">
-            <div class="row" id="day"> Friday </div>
-            <div class="row"> 🌤️ </div>
-            <div class="row"> 22°C </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    <script src="src/script.js"></script>
+    </p>
+    <button>What to watch next?</button>
+    <p> <div class="author"> Coded by Nathalie Rognon</p></div>
   </body>
+  
+  <script src="src/script.js"></script>
+ 
 </html>
